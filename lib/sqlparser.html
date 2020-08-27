@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    RED.nodes.registerType('sqlparser',{
+        category: 'function',
+        color: '#DEBD5C',
+        defaults: {
+            name: {value: "Parse SQL to JSON"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "sqlparser.png",
+        label: function() {
+            return this.name || "Parse SQL to JSON";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="sqlparser">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="sqlparser">
+    <p>Parse SQL text found in <b>msg.payload</b> to JSON.</p>
+    <p>SQL is saved in the <b>msg.payload</b> property, overriding the JSON. </p>
+</script>
