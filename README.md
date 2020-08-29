@@ -15,6 +15,7 @@ msg.payload += 'and aaa.col1 = :col1_param '
 msg.payload += 'and aaa.col2 = :col2_param '
 return msg;
 ```
+<a href="https://www.buymeacoffee.com/gagagiga" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 Result
 -------
