@@ -1,6 +1,6 @@
 {
-  "_from": "node-red-contrib-sqlparser@0.0.6",
-  "_id": "node-red-contrib-sqlparser@0.0.6",
+  "_from": "node-red-contrib-sqlparser@0.0.7",
+  "_id": "node-red-contrib-sqlparser@0.0.7",
   "_inBundle": false,
   "_integrity": "sha512-rXcokY/RBmfJD/jC/Sjv7mUstJew6uvKKn6gm4aizpWdTS6iW367wRPV5rXwYXmX1EK2nGtFonZT5Wmp2OxVpA==",
   "_location": "/node-red-contrib-sqlparser",
@@ -8,20 +8,20 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "node-red-contrib-sqlparser@0.0.6",
+    "raw": "node-red-contrib-sqlparser@0.0.7",
     "name": "node-red-contrib-sqlparser",
     "escapedName": "node-red-contrib-sqlparser",
-    "rawSpec": "0.0.6",
+    "rawSpec": "0.0.7",
     "saveSpec": null,
-    "fetchSpec": "0.0.6"
+    "fetchSpec": "0.0.7"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/node-red-contrib-sqlparser/-/node-red-contrib-sqlparser-0.0.6.tgz",
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-sqlparser/-/node-red-contrib-sqlparser-0.0.7.tgz",
   "_shasum": "1e0d1ea627b98f2e41d723b159b3461f8c1ca45a",
-  "_spec": "node-red-contrib-sqlparser@0.0.6",
+  "_spec": "node-red-contrib-sqlparser@0.0.7",
   "_where": "C:\\Users\\gagag\\.node-red",
   "author": {
     "name": "hkjang"
@@ -51,5 +51,5 @@
     "type": "git",
     "url": "git+https://github.com/hkjang/node-red-contrib-sqlparser.git"
   },
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
